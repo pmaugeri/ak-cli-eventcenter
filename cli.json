@@ -1,0 +1,13 @@
+{
+  "requirements": {
+    "node": "7.0.0"
+  },
+  "commands": [
+    {
+      "name": "eventcenter",
+      "version": "0.0.1",
+      "description": "Interface for Akamai Event Center",
+      "bin": "https://github.com/pmaugeri/ak-cli-eventcenter/releases/download/{{.Version}}/akamai-{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}{{.BinSuffix}}"
+    }
+  ]
+}

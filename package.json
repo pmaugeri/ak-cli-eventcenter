@@ -1,0 +1,33 @@
+{
+  "name": "ak-cli-eventcenter",
+  "version": "0.0.1",
+  "description": "CLI Interface for Akamai Event Center",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmaugeri/ak-cli-eventcenter.git"
+  },
+  "keywords": [
+    "akamai",
+    "cli",
+    "eventcenter",
+    "devops",
+    "api",
+    "open"
+  ],
+  "author": "pmaugeri2@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmaugeri/ak-cli-eventcenter/issues"
+  },
+  "homepage": "https://github.com/pmaugeri/ak-cli-eventcenter#readme",
+  "dependencies": {
+    "sywac": "^1.2.0"
+  }
+}
