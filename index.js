@@ -1,3 +1,3 @@
 module.exports = {
-	akEventCenter: require('./src/ieventcenter.js')
+	akEventCenter: require('./src/eventcenter.js')
 };

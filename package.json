@@ -28,6 +28,10 @@
   },
   "homepage": "https://github.com/pmaugeri/ak-cli-eventcenter#readme",
   "dependencies": {
-    "sywac": "^1.2.0"
+    "chalk": "^2.4.1",
+    "child-process-promise": "^2.2.1",
+    "pkg": "^4.3.1",
+    "sywac": "^1.2.0",
+    "untildify": "^3.0.3"
   }
 }

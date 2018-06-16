@@ -13,6 +13,14 @@ let debug = false;
 let targetProperty;
 let searchString;
 
+function setup(app, options) {
+    return app.setup(options)
+}
+
+function hello(app, options) {
+    return app.hello(options)
+}
+
 function main () {
     process.argv[1] = 'akamai eventcenter'
     const chalk = require('chalk')
@@ -25,11 +33,18 @@ function main () {
         desc: 'Section for config file',
         defaultValue: "default"
       })
+     .command('setup', {
+        desc: 'Setup',
+        run: options => {
+           let app = new akEventCenter(options);
+            return setup(app, options);
+          }
+      })
      .command('hello', {
         desc: 'Say Hello World!',
         run: options => {
            let app = new akEventCenter(options);
-            return setup(app, options);
+            return hello(app, options);
           }
       })
  
